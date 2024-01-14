@@ -18,7 +18,7 @@ The Cron Parser is a Java application that takes a cron string as input and expa
 To run the Cron Parser, provide a cron string as a command-line argument:
 
 ```sh
-java CronParserApp '*/15 0 1,15 * 1-5 /usr/bin/find'
+java -jar cronparser-*.jar "*/15 0 * * 1-5 /usr/bin/find'
 ```
 The application will display the expanded schedule in the following format:
 
